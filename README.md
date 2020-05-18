@@ -26,6 +26,8 @@ npm run dev
 npm run watch
 ```
 
+将miniprogram\_dev目录在微信开发者工具中打开，就可以看到demo。
+
 ## skeleton组件使用
 
 ### 一、安装和引入
