@@ -2,7 +2,31 @@
 
 绘制小程序骨架屏，轻量、方便、快捷
 
-## Use
+
+## 项目使用
+
+* 使用[命令行工具](https://github.com/wechat-miniprogram/miniprogram-cli)进行初始化
+* 直接从 github 上 clone 下来
+
+1. 安装依赖：
+
+```
+npm install
+```
+
+2. 执行命令：
+
+```
+npm run dev
+```
+
+默认会在包根目录下生成 miniprogram\_dev 目录，src 中的源代码会被构建并生成到 miniprogram\_dev/components 目录下。如果需要监听文件变化动态构建，则可以执行命令：
+
+```
+npm run watch
+```
+
+## skeleton组件使用
 
 ### 一、安装和引入
 
